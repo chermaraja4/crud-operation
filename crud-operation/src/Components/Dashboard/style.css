@@ -1,0 +1,23 @@
+.DashBoard{
+margin-top: 20px;
+}
+
+.Header{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.formcontrol {
+    width: 25%;
+}
+.Table{
+margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .formcontrol {
+        width: 50%;
+    }
+  
+  }
